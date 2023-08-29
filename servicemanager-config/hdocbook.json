@@ -1,0 +1,29 @@
+{
+  "docId": "servicemanager-config",
+  "title": "Service Manager Configuration Guide",
+  "description": "Guidance around configuring and administering the Service Manager applicaiton",
+  "publicSource": "--publicSource--",
+  "productFamily": "hdocs",
+  "version": "0.0.1",
+  "audience": [
+    "public"
+  ],
+  "languages": [
+    "en"
+  ],
+  "navigation": {
+    "items": [
+      {
+        "text": "Introduction",
+        "expand": true,
+        "items": [
+          {
+            "text": "Welcome",
+            "link": "servicemanager-config/index"
+          }
+        ]
+      }
+    ]
+  },
+  "tags": []
+}
