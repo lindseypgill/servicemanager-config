@@ -2,8 +2,8 @@
   "docId": "servicemanager-config",
   "title": "Service Manager Configuration Guide",
   "description": "Guidance around configuring and administering the Service Manager applicaiton",
-  "publicSource": "--publicSource--",
-  "productFamily": "hdocs",
+  "publicSource": "https://github.com/Hornbill-Docs/servicemanager-config.git",
+  "productFamily": "com.hornbill.servicemanager",
   "version": "0.0.1",
   "audience": [
     "public"
