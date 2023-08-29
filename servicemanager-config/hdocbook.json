@@ -1,7 +1,7 @@
 {
   "docId": "servicemanager-config",
   "title": "Service Manager Configuration Guide",
-  "description": "Guidance around configuring and administering the Service Manager applicaiton",
+  "description": "Guidance around configuring and administering the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-config.git",
   "productFamily": "com.hornbill.servicemanager",
   "version": "0.0.1",
@@ -14,12 +14,212 @@
   "navigation": {
     "items": [
       {
-        "text": "Introduction",
+        "text": "Overview",
+        "link": "service-manager-config/index"
+      },
+      {
+        "text": "Getting Started",
         "expand": true,
         "items": [
           {
-            "text": "Welcome",
-            "link": "servicemanager-config/index"
+            "text": "Installing Service Manager",
+            "link": "service-manager-config/installing-service-manager",
+            "draft": false
+          }          
+        ]
+      },
+      {
+        "text": "Setup",
+        "expand":false,
+        "items": [
+          {
+            "text": "Users",
+            "link": "service-manager-config/setup/service-manager-users",
+            "draft": false
+          },
+          {
+            "text": "Roles",
+            "link": "service-manager-config/setup/service-manager-roles",
+            "draft": false
+          },
+          {
+            "text": "Simple Lists",
+            "link": "service-manager-config/setup/service-manager-simple-lists",
+            "draft": false
+          }
+        ]
+      },
+      {
+        "text": "Customize",
+        "expand":false,
+        "items": [
+          {
+            "text": "Intelligent Capture",
+            "expand": false,
+            "items":[
+              {
+                "text": "Using Intelligent Capture",
+                "link":"service-manager-config/customize/service-manager-capture",
+                "draft": false
+              },
+              {
+              "text": "Service Manager Forms",
+              "link": "service-manager-config/customize/service-manager-capture-forms",
+              "draft": false
+              }
+            ]           
+          },
+          {
+            "text": "Business Processes",
+            "expand": false,
+            "items":[
+             {
+                "text": "Using Automation with Service Manager",
+                "link": "service-manager-config/customize/bpm/using-bpm-with-service-manager",
+                "draft": false
+              },
+              {
+                "text": "General Request Automation",
+                "link": "service-manager-config/customize/bpm/service-manager-business-processes",
+                "draft": false
+              },
+              {
+                "text": "Change Request Automation",
+                "link": "service-manager-config/customize/bpm/change-request-automation",
+                "draft": false
+              },
+              {
+                "text": "Known Error Automation",
+                "link": "service-manager-config/customize/bpm/known-error-automation",
+                "draft": false
+              },
+              {
+                "text": "Problem Record Automation",
+                "link": "service-manager-config/customize/bpm/problem-record-automation",
+                "draft": false
+              },
+              {
+                "text": "Release Record Automation",
+                "link": "service-manager-config/customize/bpm/release-record-automation",
+                "draft": false
+              },
+              {
+                "text": "Request Connections Automation",
+                "link": "service-manager-config/customize/bpm/request-connections-automation",
+                "draft": false
+              }
+            ]
+          },          
+          {
+            "text": "Auto Tasks",
+            "link": "service-manager-config/customize/service-manager-auto-tasks",
+            "draft": false
+          },
+          {
+            "text": "Translations",
+            "link": "service-manager-config/customize/service-manager-translations",
+            "draft": false
+          }
+        ]
+      },
+      {
+        "text": "Manage Executed Processes",
+        "expand": false,
+        "items": [
+          {
+            "text": "Manage Executed Processes",
+            "link": "service-manager-config/manage-executed-processes/manage-executed-processes"
+          }
+        ]
+      },
+      {
+        "text": "Advanced Analystics",
+        "expand":false,
+        "items":[
+          {
+            "text": "Measures",
+            "link": "service-manager-config/advanced-analytics/measures"
+          },
+          {
+            "text": "Widgets",
+            "link": "service-manager-config/advanced-analytics/widgets"
+          },
+          {
+            "text": "Dashboards",
+            "link": "service-manager-config/advanced-analytics/dashboards"
+          },
+          {
+            "text": "Slideshows",
+            "link": "service-manager-config/advanced-analytics/slideshows"
+          }
+        ]
+      },
+      {
+        "text": "Reports",
+        "expand":false,
+        "items":[
+          {
+            "text": "Reporting",
+            "link": "service-manager-config/reports/reporting"
+          }
+        ]
+      },
+      {
+        "text": "Advanced Tools and Settings",
+        "expand":false,
+        "items":[
+          {
+            "text": "Entity Explorer",
+            "link": "service-manager-config/advanced-tools-and-settings/entity-explorer"
+          },
+          {
+            "text": "Application Settings",
+            "link": "service-manager-config/advanced-tools-and-settings/application-settings"
+          }
+        ]
+      },
+      {
+        "text": "Email",
+        "expand":false,
+        "items":[
+          {
+            "text": "Routing Rule Templates",
+            "link": "service-manager-config/email/routing-rule-templates"
+          }
+        ]
+      },
+      {
+        "text": "Administration",
+        "expand":false,
+        "items":[
+          {
+            "text": "Service Desk",
+            "link": "service-manager-config/administration/service-desk",
+            "draft": false
+          },
+          {
+            "text": "Relationships",
+            "link": "service-manager-config/administration/service-manager-relationships",
+            "draft": false
+          },
+          {
+            "text": "Assessments",
+            "link": "service-manager-config/administration/service-manager-assessments",
+            "draft": false
+          },
+          {
+            "text": "Request Sub-statuses",
+            "link": "service-manager-config/administration/request-sub-statuses",
+            "draft": false
+          },
+          {
+            "text": "Request Settings",
+            "link": "service-manager-config/administration/request-settings",
+            "draft": false
+          },
+          {
+            "text": "Scheduled Requests",
+            "link": "service-manager-config/administration/scheduled-requests"
           }
         ]
       }
