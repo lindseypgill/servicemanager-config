@@ -4,7 +4,7 @@
   "description": "Guidance around configuring and administering the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-config.git",
   "productFamily": "com.hornbill.servicemanager",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "audience": [
     "public"
   ],
@@ -74,9 +74,13 @@
             "expand": false,
             "items":[
              {
-                "text": "Using Automation with Service Manager",
+                "text": "Using Business Processes with Service Manager",
                 "link": "servicemanager-config/customize/bpm/using-bpm-with-service-manager",
                 "draft": false
+              },
+              {
+                "text": "Business Process Designer",
+                "link": "servicemanager-config/customize/bpm/business-process-designer"
               },
               {
                 "text": "General Request Automation",
