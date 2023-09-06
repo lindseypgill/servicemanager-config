@@ -3,7 +3,7 @@ layout: article-toc
 ---
 # Change Request Automation
 ## Change Requests
-Use these nodes at any stage in a process to automate Change Request specific actions.
+Use these nodes at any stage in a workflow to automate Change Request specific actions.
 ### Get Information
 * **Get Information**<br>
 

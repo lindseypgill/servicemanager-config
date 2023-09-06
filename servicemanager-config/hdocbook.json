@@ -4,7 +4,7 @@
   "description": "Guidance around configuring and administering the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-config.git",
   "productFamily": "com.hornbill.servicemanager",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "audience": [
     "public"
   ],
@@ -70,46 +70,46 @@
             ]           
           },
           {
-            "text": "Business Processes",
+            "text": "Workflows",
             "expand": false,
             "items":[
              {
-                "text": "Using Business Processes with Service Manager",
-                "link": "servicemanager-config/customize/bpm/using-bpm-with-service-manager",
+                "text": "Using Workflows with Service Manager",
+                "link": "servicemanager-config/customize/workflows/using-workflows-with-service-manager",
                 "draft": false
               },
               {
-                "text": "Business Process Designer",
-                "link": "servicemanager-config/customize/bpm/business-process-designer"
+                "text": "Workflow Designer",
+                "link": "servicemanager-config/customize/workflows/workflow-designer"
               },
               {
                 "text": "General Request Automation",
-                "link": "servicemanager-config/customize/bpm/service-manager-business-processes",
+                "link": "servicemanager-config/customize/workflows/service-manager-workflows",
                 "draft": false
               },
               {
                 "text": "Change Request Automation",
-                "link": "servicemanager-config/customize/bpm/change-request-automation",
+                "link": "servicemanager-config/customize/workflows/change-request-automation",
                 "draft": false
               },
               {
                 "text": "Known Error Automation",
-                "link": "servicemanager-config/customize/bpm/known-error-automation",
+                "link": "servicemanager-config/customize/workflows/known-error-automation",
                 "draft": false
               },
               {
                 "text": "Problem Record Automation",
-                "link": "servicemanager-config/customize/bpm/problem-record-automation",
+                "link": "servicemanager-config/customize/workflows/problem-record-automation",
                 "draft": false
               },
               {
                 "text": "Release Record Automation",
-                "link": "servicemanager-config/customize/bpm/release-record-automation",
+                "link": "servicemanager-config/customize/workflows/release-record-automation",
                 "draft": false
               },
               {
                 "text": "Request Connections Automation",
-                "link": "servicemanager-config/customize/bpm/request-connections-automation",
+                "link": "servicemanager-config/customize/workflows/request-connections-automation",
                 "draft": false
               }
             ]
@@ -127,12 +127,12 @@
         ]
       },
       {
-        "text": "Manage Executed Processes",
+        "text": "Manage Executed Workflows",
         "expand": false,
         "items": [
           {
-            "text": "Manage Executed Processes",
-            "link": "servicemanager-config/manage-executed-processes/manage-executed-processes"
+            "text": "Manage Executed Workflows",
+            "link": "servicemanager-config/manage-executed-workflows/manage-executed-workflows"
           }
         ]
       },

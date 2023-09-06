@@ -2,7 +2,7 @@
 layout: article-toc
 ---
 # Problem Record Automation
-Use these nodes at any stage in a process to automate Problem Record specific actions.
+Use these nodes at any stage in a workflow to automate Problem Record specific actions.
 ### Get Information
 * **Problem Details** <br>
 ### Suspend

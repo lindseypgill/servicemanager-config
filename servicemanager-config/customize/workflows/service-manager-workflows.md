@@ -2,7 +2,7 @@
 layout: article-toc
 ---
 # General Request Automation
-The Service Manager Business Process Workflow is used to automate the processing of the requests that have been raised. This page contains information on the Service Manager automated tasks that can be used in the Business Process Designer to build unique and powerful processes for your requests.
+The Service Manager Workflows are used to automate the processing of the requests that have been raised. This page contains information on the Service Manager automated tasks that can be used in the Workflow Designer to build unique and powerful workflows for your requests.
 
 
 ### Access Control
@@ -76,7 +76,7 @@ Rejected
 Clear
 
 ### Collaboration
-Use the Collaboration node to post an automated update onto a public workspace at any stage in a process. This will be visible to members of the specified workspace, on the timeline of the workspace and their News Feeds.
+Use the Collaboration node to post an automated update onto a public workspace at any stage in a workflow. This will be visible to members of the specified workspace, on the timeline of the workspace and their News Feeds.
 
 Comment on Existing Public Workspace Post
 Comment on Request Source Post
@@ -93,7 +93,7 @@ Email External Address
 Email Request Owner
 
 ### Get Request Information
-Use the Get Request Information node at any stage in a process and preceding another workflow node when you want to make the variables of the Request available. Variables may include Customer, Status, Site, Priority, or any Answers to Customer defined questions from different Progressive capture forms or attributes of the customer or organization of the request the business process is running against.
+Use the Get Request Information node at any stage in a workflow and preceding another workflow node when you want to make the variables of the Request available. Variables may include Customer, Status, Site, Priority, or any Answers to Customer defined questions from different Progressive capture forms or attributes of the customer or organization of the request the workflow is running against.
 
 Category Details
 Customer Details
@@ -107,7 +107,7 @@ Site Details
 Team Details
 
 ### Integration
-Use the Integration node at any stage of a process, where you wish to invoke specific actions against a 3rd party application from the available list of applications.
+Use the Integration node at any stage of a workflow, where you wish to invoke specific actions against a 3rd party application from the available list of applications.
 
 Create Jira Request
 Add Jira Request Comment
@@ -130,7 +130,7 @@ Log New Release
 Log New Request
 
 :::note
-Using these options in your business processes, please be aware of where you are invoking them / placing them in the workflow, and in turn which business processes are going to be invoked against the new Incident or Service Request raised. Please avoid scenario's where one business process may invoke the logging of a new request, where the new request's business process immediately is configured to log a new request which again has a business process which again logs another request immediately creating a loop. The result of which may be a lot of unwanted requests. In the event this occurs, disable the causing business process and resolve the issue.
+Using these options in your workflows, please be aware of where you are invoking them / placing them in the workflow, and in turn which workflows are going to be invoked against the new Incident or Service Request raised. Please avoid scenario's where one workflow may invoke the logging of a new request, where the new request's workflow immediately is configured to log a new request which again has a workflow which again logs another request immediately creating a loop. The result of which may be a lot of unwanted requests. In the event this occurs, disable the causing workflow and resolve the issue.
 :::
 
 ### Questions
@@ -175,7 +175,7 @@ Wait for Request Team
 Wait for Request Update
 
 ### Update Request
-Use the Update Request node to automatically update the values of specific Request attributes at any stage in the process. Examples being updating the Logging or Closing Categories of a Request.
+Use the Update Request node to automatically update the values of specific Request attributes at any stage in the workflow. Examples being updating the Logging or Closing Categories of a Request.
 
 Logging Category
 Closure Category
@@ -196,7 +196,7 @@ Status / Sub-status
 Timeline
 
 ### Request Timers
-Use the Request Timer nodes at any stage in the process to either start or stop the Response and or Resolution timers. It is not a perquisite to have to use any timers within processes or to have to use both Response and Resolution timers when timers are used.
+Use the Request Timer nodes at any stage in the workflow to either start or stop the Response and or Resolution timers. It is not a perquisite to have to use any timers within workflows or to have to use both Response and Resolution timers when timers are used.
 
 There are some settings that control the default behavior of the Service Level Timers. The settings provided to pause or stop the resolution timer when resolving a request are as follows:
 
@@ -208,7 +208,7 @@ app.request.stopResolutionTimerOnClose (Default OFF)
 Using settings to control resolution timers
 You should choose the relevant settings to meet your needs, but note that app.request.stopResolutionTimerOnResolve will take precedence over app.request.pauseResolutionTimerOnResolve so ensure only the one you want to use is enabled.
 Using BPM nodes to control resolution timers
-If you are using this BPM node to control resolution timers the four settings above should all be turned off; If any settings are enabled then they will take precedence over BPM actions. To enable pause/resume of a resolved request you can add the Timer > Pause Resolution Timer or Timer > Resume Resolution Timer BPM nodes as required in your BPM process.
+If you are using this BPM node to control resolution timers the four settings above should all be turned off; If any settings are enabled then they will take precedence over BPM actions. To enable pause/resume of a resolved request you can add the Timer > Pause Resolution Timer or Timer > Resume Resolution Timer BPM nodes as required in your workflow.
 
 Start Resolver Timer
 Stop Resolution Timer

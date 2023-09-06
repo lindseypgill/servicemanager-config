@@ -2,7 +2,7 @@
 layout: article-toc
 ---
 # Request Members
-Use the Request Members node at any stage in a process to automatically add or remove another analyst or subject matter expert into a Request. Members can be added even if they do not have the rights to view the request type, nor the requests which belong to the team against which the request belongs. The added Member's rights will be elevated just for the specific Request. Members can be notified about being added via Hornbill Notifications, and or email depending on the following Service Manager system setting: guest.app.requests.notification.notificationType.members
+Use the Request Members node at any stage in a workflow to automatically add or remove another analyst or subject matter expert into a Request. Members can be added even if they do not have the rights to view the request type, nor the requests which belong to the team against which the request belongs. The added Member's rights will be elevated just for the specific Request. Members can be notified about being added via Hornbill Notifications, and or email depending on the following Service Manager system setting: guest.app.requests.notification.notificationType.members
 
 ## Add Request Member
 Use this node to add Service Manager analysts to the request. This option allows you to automatically add additional analysts to the request to assist with the resolution or as interested parties.

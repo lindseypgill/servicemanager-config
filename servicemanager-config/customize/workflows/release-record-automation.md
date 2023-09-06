@@ -2,7 +2,7 @@
 layout: article-toc
 ---
 # Release Record
-Use this node at any stage in a process to automate Release specific actions.
+Use this node at any stage in a workflow to automate Release specific actions.
 
 ## Suspend
 * **Wait for Release Type**<br>
