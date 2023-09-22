@@ -4,7 +4,7 @@
   "description": "Guidance around configuring and administering the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-config.git",
   "productFamily": "com.hornbill.servicemanager",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "audience": [
     "public"
   ],
@@ -25,12 +25,12 @@
             "text": "Installing Service Manager",
             "link": "servicemanager-config/installing-service-manager",
             "draft": false
-          }          
+          }
         ]
       },
       {
         "text": "Setup",
-        "expand":false,
+        "expand": false,
         "items": [
           {
             "text": "Users",
@@ -51,29 +51,29 @@
       },
       {
         "text": "Customize",
-        "expand":false,
+        "expand": false,
         "items": [
           {
             "text": "Intelligent Capture",
             "expand": false,
-            "items":[
+            "items": [
               {
                 "text": "Using Intelligent Capture",
-                "link":"servicemanager-config/customize/service-manager-capture",
+                "link": "servicemanager-config/customize/service-manager-capture",
                 "draft": false
               },
               {
-              "text": "Service Manager Forms",
-              "link": "servicemanager-config/customize/service-manager-capture-forms",
-              "draft": false
+                "text": "Service Manager Forms",
+                "link": "servicemanager-config/customize/service-manager-capture-forms",
+                "draft": false
               }
-            ]           
+            ]
           },
           {
             "text": "Workflows",
             "expand": false,
-            "items":[
-             {
+            "items": [
+              {
                 "text": "Using Workflows with Service Manager",
                 "link": "servicemanager-config/customize/workflows/using-workflows-with-service-manager",
                 "draft": false
@@ -113,7 +113,7 @@
                 "draft": false
               }
             ]
-          },          
+          },
           {
             "text": "Auto Tasks",
             "link": "servicemanager-config/customize/service-manager-auto-tasks",
@@ -138,8 +138,8 @@
       },
       {
         "text": "Advanced Analytics",
-        "expand":false,
-        "items":[
+        "expand": false,
+        "items": [
           {
             "text": "Measures",
             "link": "servicemanager-config/advanced-analytics/measures"
@@ -160,8 +160,8 @@
       },
       {
         "text": "Reports",
-        "expand":false,
-        "items":[
+        "expand": false,
+        "items": [
           {
             "text": "Reporting",
             "link": "servicemanager-config/reports/reporting"
@@ -170,8 +170,8 @@
       },
       {
         "text": "Advanced Tools and Settings",
-        "expand":false,
-        "items":[
+        "expand": false,
+        "items": [
           {
             "text": "Entity Explorer",
             "link": "servicemanager-config/advanced-tools-and-settings/entity-explorer"
@@ -184,8 +184,8 @@
       },
       {
         "text": "Email",
-        "expand":false,
-        "items":[
+        "expand": false,
+        "items": [
           {
             "text": "Routing Rule Templates",
             "link": "servicemanager-config/email/routing-rule-templates"
@@ -194,8 +194,8 @@
       },
       {
         "text": "Administration",
-        "expand":false,
-        "items":[
+        "expand": false,
+        "items": [
           {
             "text": "Service Desk",
             "link": "servicemanager-config/administration/service-desk",
@@ -223,7 +223,8 @@
           },
           {
             "text": "Scheduled Requests",
-            "link": "servicemanager-config/administration/scheduled-requests"
+            "link": "servicemanager-config/administration/scheduled-requests",
+            "draft": true
           }
         ]
       }
