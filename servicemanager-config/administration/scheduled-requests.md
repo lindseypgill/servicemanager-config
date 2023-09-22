@@ -2,7 +2,13 @@
 layout: article-toc
 ---
 # Scheduled Requests
+
+:::important
+Coming soon - this feature will be included in a Service Manager update in the very near future!
+:::
+
 The Scheduled Requests feature allows Service Manager requests to be automatically created on a set schedule.  For example, there may be a need to schedule a change to your environment that happens each week or month.
+
 
 ## Adding a Scheduled Request
 
