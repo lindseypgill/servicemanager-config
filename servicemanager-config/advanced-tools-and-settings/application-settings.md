@@ -80,6 +80,10 @@ An email can be sent to a user that is assigned an authorization task. The user 
 - When the setting is 'On' customers will see All new and historic Change records in the request lists on the portals where they are the marked as the customer
 - When the setting is 'On' customers will have the option to see and use portal visible change catalog Items for their subscribed services
 
+`guest.com.hornbill.servicemanager.showRespondByDate`
+- The default is `Off`
+- When this setting is 'On' the Respond by date/time will be displayed in the right hand information box of a request on the Customer Portal.
+
 ## Intelligent Capture Settings
 `servicemanager.progressiveCapture.servicedetails.enableSupportVisibility`
 - The default setting for this is 'Off'
