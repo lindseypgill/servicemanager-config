@@ -2,13 +2,25 @@
 layout: article-toc
 ---
 # Scheduled Requests
+The Scheduled Requests feature enables Service Manager requests to be generated automatically with a predetermined timetable.  For instance, there may be a need to schedule a change to your environment that happens on a weekly or monthly basis.
 
-:::important
-Coming soon - this feature will be included in a Service Manager update in the very near future!
-:::
+## Topics Covered
+* Accessing Scheduled Requests.
+* Creating a scheduled request.
+* Re-activate an expired scheduled request.
 
-The Scheduled Requests feature allows Service Manager requests to be automatically created on a set schedule.  For example, there may be a need to schedule a change to your environment that happens each week or month.
+## Before You Begin
+* A user requires either the Service Desk Admin or the Hornbill Admin role.
 
+## Accessing
+* Open [Configuration](/esp-config/getting-started/using-configuration) and search for Scheduled Requests.
+* Select `Scheduled Requests` from the results list.
+
+-or-
+
+* Open [Configuration](/esp-config/getting-started/using-configuration) and select `Service Manager` from the navigation drop down
+* Browse the navigation pain for the **Administration** section.
+* Select `Scheduled Requests`
 
 ## Adding a Scheduled Request
 
@@ -39,3 +51,14 @@ Select one of the following scheduling options
 
 #### Next event date
 When first creating a scheduled request, set the date and time for the first event will take place.  Once the first event has happened, this field will display the date and time of the next scheduled event.
+
+#### Expiry Count
+All but the **Run Once* option have an expiry count.  This option limits the number of times the scheduled request will run.  Independent of how many days or months are selected in the schedule, the schedule requests will stop once this number has been reached. Use -1 if don't want to limit the number of times that the scheduled request is run.
+
+## Re-Activate an Expired Scheduled Request
+After a scheduled request has been completed and there are no more recurrences to create a new request, the status is changed to `Expired`.  If you wish to reuse an expired scheduled request
+
+1. Open the list of Scheduled Requests.
+1. Click on the `Update` option on the expired Scheduled Request that needs to be re-activated.
+1. Update the schedule and set up a new schedule.
+1. Click on the `Re-activate` button.
