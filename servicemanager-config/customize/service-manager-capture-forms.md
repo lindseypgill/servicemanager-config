@@ -157,12 +157,26 @@ Hide All Sites in Portals (if all sites option is not hidden)
 Select Yes to always have the sites tab hidden when viewing on the portals
 
 ## Services
-The 'Service Details' form allows an analyst to specify a service when logging a request:
-Displays Request Catalog Items under each Service
-If preceded by the Customer, Co-worker, or Contact Search the Service Details will only show the subscribed services for the selected person
-If preceded by the Requets Type form, only the Request Catalog Items that match that type will be displayed
-Branch Options: The name of the selected service can be used in a branch node
-Filter option by Service Category
-Setting: servicemanager.progressiveCapture.servicedetails.enableSupportVisibility - restricts the view so that the list of services also only includes the services supported by the analyst
-Setting: servicemanager.progressiveCapture.servicedetails.catalogRequired - enforces the selection of a request catalog item if one exists under a Service
+The Services form allows Service Manager user to select a service when capturing information during request creation.  Each service will also display their assocaited request catalog if available.
+
+:::tip
+This form will not be displayed to anyone raising requests through the Customer or Employee portals.
+:::
+
+### Form Features
+* Filter services by name
+* Displays Request Catalog under each Service
+* If this form is preceded by the Customer, Co-worker, or Contact Search the Service Details will only show the subscribed services for the selected person
+* If this form is preceded by the Request Type form, only the Request Catalog Items that match that type will be displayed
+* Filter option by Service Category
+
+### Branch Options
+The name of the selected service can be used in a branch node
+
+### Application Settings
+The following settings can be use to change the behavior of the Services form.  These settings can be updated in the [Application Settings](/servicemanager-config/advanced-tools-and-settings/application-settings) for Service Manager.
+|Name|Description|
+|-|-|
+|servicemanager.progressiveCapture.servicedetails.enableSupportVisibility|Restricts the view so that the list of services also only includes the services supported by the analyst.|
+|servicemanager.progressiveCapture.servicedetails.catalogRequired|Enforces the selection of a request catalog item if one exists under a service.|
 
