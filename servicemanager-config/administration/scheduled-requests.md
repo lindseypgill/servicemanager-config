@@ -53,7 +53,7 @@ Select one of the following scheduling options
 When first creating a scheduled request, set the date and time for the first event will take place.  Once the first event has happened, this field will display the date and time of the next scheduled event.
 
 #### Expiry Count
-All but the **Run Once* option have an expiry count.  This option limits the number of times the scheduled request will run.  Independent of how many days or months are selected in the schedule, the schedule requests will stop once this number has been reached. Use -1 if don't want to limit the number of times that the scheduled request is run.
+All but the **Run Once** option have an expiry count.  This option limits the number of times the scheduled request will run.  Independent of how many days or months are selected in the schedule, the schedule requests will stop once this number has been reached. Use -1 if don't want to limit the number of times that the scheduled request is run.
 
 ## Re-Activate an Expired Scheduled Request
 After a scheduled request has been completed and there are no more recurrences to create a new request, the status is changed to `Expired`.  If you wish to reuse an expired scheduled request

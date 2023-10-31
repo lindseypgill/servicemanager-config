@@ -2,7 +2,7 @@
 layout: article-toc
 ---
 # Routing Rule Templates
-The Routing Rule Templates provide a way to define default settings for requests that are automatically raised from emails using the Email Routing Rules. An unlimited number of Routing Rule Templates can be created. Each Email Routing Rule can link to a single Routing Rule Template. A single Routing Rule Template can be used by multiple Email Routing Rules.
+The Routing Rule Templates provide a way to define default settings for requests that are automatically raised from emails using the [Routing Rules](/esp-config/email/using-email-routing-rules). An unlimited number of Routing Rule Templates can be created. Each Email Routing Rule can link to a single Routing Rule Template. A single Routing Rule Template can be used by multiple Email Routing Rules.
 
 ## Template Options
 

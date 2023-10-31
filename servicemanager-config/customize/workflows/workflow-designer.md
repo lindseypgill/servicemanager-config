@@ -20,7 +20,7 @@ The Start Node indicates the starting point of the workflow. There are no parame
 Hornbill Automations are definable automated actions that will occur within the workflow. The available Hornbill Automation are provided by each application that utilizes workflows. Each application can provide automated tasks.
 ### Authorization
 Used to define the decision makers for authorizations, set their approval weightings, add expiry options on the decision, and if required include useful variables from the parent request to assist with the decision making in the authorization task information.
-Read More...
+
 ### Auto Assign Authorization
 This node is used to invoke authorization tasks for approvers which have been predefined using the Service Manager > Entity > Request > Suspend > Wait for List of Request Authorizers node or the Core > Application > Utility > Get Authorizers by Group. This node has no requirement to define approval weightings etc as these will have been configured in the preceding node. Options do include the configuration of outcomes, the authorization task details and lifespan setting including optional due and expiry dates.
 ### External Authorization
@@ -31,7 +31,7 @@ These nodes can be used after a number of other nodes including, Human Tasks, or
 Note: It is strongly advised that all Decision nodes have a No Match outcome to avoid the potential of a No Matching GotoIf error when none of the criteria are met.
 ### Human Tasks
 This is for a synchronous manual activity that needs to be carried out. The workflow will wait for someone to update the activity with one of the expected outcomes. You need to define the name and details of the activity, allocate a role or an individual co-worker, and expected outcomes, as well as optionally including variables from the linked parent request which may assist in the completion of the task.
-Read more...
+
 ### Cloud Automation
 This node is used to invoke automated actions in a workflow using either integrations with 3rd party solutions using Hornbill's Integration Bridge, or by invoking automations defined in 3rd party tools like Microsoft Orchestrator or HP OO. options will include choosing the connector to use, selecting the Method (automation) you wish to invoke and then supplying the required input parameters relevant to the connector and method you have chosen.
 ### IT Automation

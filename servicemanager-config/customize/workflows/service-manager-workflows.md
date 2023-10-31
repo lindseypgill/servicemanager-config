@@ -64,6 +64,7 @@ Use the Assignment node to automatically assign a request to different Service M
 * Assign to Team
 * Assign to Owner
 * Assign to Owner (Variable)
+* **Unassign Owner**<br>This automation can be used to remove the current owner from the request without affecting the team to which the request is assigned.  
 * Assign to Request Creator
 * Assign to Most Available Analyst
 * Assign on Round Robin Basis
