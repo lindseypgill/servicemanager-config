@@ -77,9 +77,9 @@ The Connections form allows the support person to select a connected customer at
 ## Customer Search
 The 'Customer Search' form allows an analyst to select a customer for the request. This search returns both Contacts and Co-workers. This form is useful when the a support team is supporting both external and internal customers.
 
-* Search both Contacts and Co-workers
+* Search on both Contacts and Co-workers
 * Filter on Contacts or Co-workers
-* The Customers active Requests are displayed when a customer is resolved.
+* The Customers active Requests are displayed when a customer is selected.
     * The list of the customer's Requests can be filtered to only show those which the logging agent supports via the linked service: app.itsm.progressiveCapture.customerDetails.showOnlySupportedRequests. When disabled, an agent will have visibility to unsupported customer Requests, this must be avoided for customers with multiple service desks (e.g. IT and HR).
     * An option to add a new Contact can be displayed on this form if the following system setting is enabled: app.itsm.progressiveCapture.customerSearch.allowAddContact
 * Advanced filtering
@@ -92,6 +92,16 @@ The 'Customer Search' form allows an analyst to select a customer for the reques
 Example:
 Joe org: ACME
 would return all customers named Joe from the ACME Organization
+* Additional Display Fields<br>These can be used to display selected fields within the right-hand side of the Inteligent Capture during the capture process. When one or more fields are added, the default fields will no longer be displayed.  If this option is left blank the following default fields will be displayed
+    * Job Title
+    * Phone
+    * E-mail
+    * Mobile
+    * Feedback
+
+
+
+
 
 ## Contact Search
 The 'Contact Search' form provides a search option for adding a contact as the customer for the request. The search results only displays contact records and is recommended to use when only providing external support.
