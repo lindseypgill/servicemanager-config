@@ -14,4 +14,4 @@ All the translation strings available here are related to the Service Manager ap
 1. Type **Translations** in the search box.
 1. In the results, select `Translations` under the Service Manager section.
 
-[[INCLUDE https://raw.githubusercontent.com/Hornbill-Docs/hdoc-library/main/hdoc-library/configuration/apps/translations/translations.md]]
+[[INCLUDE https://raw.githubusercontent.com/Hornbill-Docs/hdoc-library/main/hdoc-library/configuration/apps/translations/translation-list.md]]
