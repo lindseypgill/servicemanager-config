@@ -99,10 +99,6 @@ would return all customers named Joe from the ACME Organization
     * Mobile
     * Feedback
 
-
-
-
-
 ## Contact Search
 The 'Contact Search' form provides a search option for adding a contact as the customer for the request. The search results only displays contact records and is recommended to use when only providing external support.
 Search all contacts
@@ -117,6 +113,10 @@ Search all Co-workers
 Configurable field to be displayed on the right hand side
 The Co-workers active Requests are displayed when a co-worker is resolved.
 The list of the Co-worker's Requests can be filtered to only show those which the logging agent supports via the linked service: app.itsm.progressiveCapture.customerDetails.showOnlySupportedRequests. When disabled, an agent will have visibility to unsupported customer Requests, this must be avoided for customers with multiple service desks (e.g. IT and HR).
+
+:::tip
+The Co-worker Search includes an additional option to show archived users in the list that is presented to the user.  This can be useful when raising requests regarding people that may have left the company.  
+:::
 
 ## Known Error Details 
 The 'Known Error Details' form allows an analyst to specify root cause and workaround details for a known error. This form is usually only seen on the new Known Error Intelligent Capture script:
