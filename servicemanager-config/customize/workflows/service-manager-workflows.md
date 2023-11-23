@@ -96,16 +96,17 @@ Use the Email Notification nodes to send email templates to different Request st
 ### Get Request Information
 Use the Get Request Information node at any stage in a workflow and preceding another workflow node when you want to make the variables of the Request available. Variables may include Customer, Status, Site, Priority, or any Answers to Customer defined questions from different Progressive capture forms or attributes of the customer or organization of the request the workflow is running against.
 
-* Category Details
+* **Category Details**<br>This is designed to get information about both the request category and the resolution category. Ideal for making decisions based on the selected category.
 * Customer Details
-* Source Email Details
+* **Source Email Details**<br>If the request was raised from an email, you can use this to get details such as the email of the sender.  This is particularly useful when the contact or user does not exist in your system.
 * Organization Details
-* Owner Details
-* Request Details
-* Progressive Capture Answers
-* Service Details
-* Site Details
-* Team Details
+* **Owner Details**<br>Can be used if you need more detail about the request owner than what the Request Details provide. A commonly used output is the owner's manager.
+* **Raised By Details**<br>Lets you gather information about who raised the reqeust.  This can be particularly useful on request types that don't include customers.  For example, you may want to include some automation on a change workflow that communicates back to the person that raised the change.
+* **Request Details**This returns all the key information about a request.  Possibly one of the most used automations in a request workflow. 
+* **Progressive Capture Answers**<br>This lets you interigate the answers that were provided during the capture phase of a request.  Make decisions based on the provided answers to drive your workflow.   
+* **Service Details**<br>Get the details of the associated service. When a request is first raised you may want to check the status of the service and send an automated email to the customer about the service not being available.  
+* **Site Details**<br>Your workflow may have location specific responses to an issue.  Use the Manager IDs to help communicate issues at a site.  You could add the managers as a connection or sent them a notification of high priority incidents.
+* **Team Details**<br>Get information about the team that the request is currently assigned to.  Two useful outputs are the IDos of the team's manager and leader, allowing you to send notifications, escalate, or add as a member.
 
 ### Integration
 Use the Integration node at any stage of a workflow, where you wish to invoke specific actions against a 3rd party application from the available list of applications.
