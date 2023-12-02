@@ -6,5 +6,8 @@
   },
   "validation": {
     "exclude_links": []
-  }
-}
+  },
+  "redirects": [
+    { "url": "/servicemanager-config/administration/service-manager-assessments", "location": "/servicemanager-config/administration/assessment-levels", "code": 301 }
+  ]
+ }

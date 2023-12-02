@@ -6,16 +6,7 @@ layout: article-toc
 The Service Manager Assessments provide options for priority, impact and urgency in order to evaluate the importance of a request.
 
 ## Impact
-The Impact Assessment allows provides a questionnaire to ascertain the level of impact that a particular request may have.
-
-### Impact Levels
-By default, 4 Impact Levels are provided. This includes Low, Medium, High, and Critical. The Impact Levels tab provides options to delete, add, rename, and provide translations for the available Impact Levels.
-
-On the left side of each Impact level, an icon is visible that allows you to drag and drop in order to change the order that the Impact levels are displayed.
-
-:::note
-If new impact levels are added when there are existing questions with defined Thresholds, these thresholds will need to be revisited and adjusted to include the new impact level.
-:::
+The Impact Assessment provides a questionnaire to ascertain the level of impact that a particular request may have.
 
 ## Assessments
 Assessments are a collection of questions that can be created and presented in the user interface to determine impact levels of a request. Multiple assessments can be created and then each assessment individually used within a BPM workflow and presented to a user at an appropriate time in the process.
