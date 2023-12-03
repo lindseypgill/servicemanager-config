@@ -1,5 +1,5 @@
 # Assessment Levels
-Assessment Levels help define the importance of a request.  These levels can be applied to three types of assessment which include Priority, Impact, and Urgency.  Levels can be applied to a request using the `Assessment` action when viewing a request record.
+Assessment Levels help define the importance of a request.  These levels can be applied to three types of assessment which include priority, impact, and urgency.  Levels can be applied to a request using the `Assessment` action when viewing a request record.
 
 ## Default Levels
 Four default levels are provided for each assessment type. This includes Low, Medium, High, and Critical. The `Levels` tab provides options to delete, add, rename, and provide translations for the available levels.
@@ -12,13 +12,22 @@ If new impact levels are added when there are existing questions with defined Th
 :::
 
 ## Priority
-Priority is available to any request that is using the Assessment Action.  
+Priority is available to any request that is using the Assessment Action.  The priority is availalbe in the request list and can be a great way to sort the request list to bring the most important requests to the top of the list.
+
+* The priority can help determine the service level that needs to be applied to a request. 
+* The priority can be automatically increased using a service level escalation.
+* Within a workflow, the priority can be used to drive communications and the process to take.
 
 ## Impact
 Impact is currently only available by using an assessment questionnaire. The assessment questionnaire is initiated through a workflow automation.
 
 ## Urgency
-Urgency is not available on the request's assessment action by default.  
+Urgency is not available on the request's assessment action by default.  There are two options to using urgency.
+
+Using the following setting, the urgency picklist can be made available on the request's assessment action. This is a global setting and it will apply to all requests.
+
 |Name|Description|
 |-|-|
-|app.com.hornbill.servicemanager.request.assessment.visibility|This setting enables the Urgency selector in the assessment action tab when viewing a request. When this selector is not required, select the 'None' option.|
+|app.com.hornbill.servicemanager.request.assessment.visibility|This setting enables the urgency selector in the assessment action tab when viewing a request. When this selector is not required, select the 'None' option.|
+
+Urgency can be enabled from a workflow, which includes providing a questionnaire. The benefit of using the workflow automation is that the urgency can be presented at a set point within the workflow.
