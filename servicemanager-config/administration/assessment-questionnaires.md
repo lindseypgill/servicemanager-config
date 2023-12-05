@@ -2,13 +2,27 @@
 layout: article-toc
 ---
 # Assessments
-Assessments are a collection of questions that can be created and presented in the user interface to determine the assessment levels of a request. Rather than having someone assume or apply their interpretation of the level, the questions can present the criteria to make that decision.
+Assessments are a collection of questions that can be created and presented in the assessment tab of a request. Rather than having someone assume or apply their perception of the level, the questions can present criteria to make that decision.
+
+## How To Access
+Assessment questionnaires are defined under the Service Manager configuration.
+1. On the keyboard use the key combination `Ctrl+Shift+s`.
+1. Search [Configuration](/esp-config/getting-started/using-configuration) for *Assessment*.
+1. In the results list select `Assessments`.
+1. Select the `Assessments` tab.
+
+or
+
+1. Open conifiguration and select `Service Manager` from the navigation dropdown.
+2. In the navigation panel locate the section titled *Administration*.
+3. Select `Assessments`.
+4. Select the `Assessments` tab.
 
 ### Questions
 One or more questions can be created for each assessment. Once a question has been created, multiple answers can be defined and will allow the user to select the most suitable answers when running through the assessment.
 
 ### Answers
-Each Question requires one or more answers to be created. Answers are presented to a user as a list of single select radio buttons, only allowing one answer to be selected per question. Each answer provides a weight level. This is a value that will be used at the end of the assessment to determine the level to be applied. The weight levels for all the selected answers are totaled up and the thresholds are then used to determine the level.
+Each question requires one or more answers to be created. Answers are presented to a user as a list of single select radio buttons, only allowing one answer to be selected per question. Each answer provides a weight level. This is a value that will be used at the end of the assessment to determine the level to be applied. The weight levels for all the selected answers are totaled up and the thresholds are then used to determine the level.
 
 * **Answer**<br>Write an answer to the question that you have provided.
 * **Weight**<br>Enter a numerical value that will represent the weight level for this answer.
