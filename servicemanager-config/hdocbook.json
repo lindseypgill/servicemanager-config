@@ -4,7 +4,7 @@
   "description": "Guidance around configuring and administering the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-config.git",
   "productFamily": "com.hornbill.servicemanager",
-  "version": "0.0.29",
+  "version": "0.0.30",
   "audience": [
     "public"
   ],
@@ -134,6 +134,7 @@
       {
         "text": "Manage Executed Workflows",
         "expand": false,
+        "draft":true,
         "items": [
           {
             "text": "Manage Executed Workflows",
@@ -144,6 +145,7 @@
       {
         "text": "Advanced Analytics",
         "expand": false,
+        "draft":true,
         "items": [
           {
             "text": "Measures",
@@ -166,6 +168,7 @@
       {
         "text": "Reports",
         "expand": false,
+        "draft":true,
         "items": [
           {
             "text": "Reporting",
