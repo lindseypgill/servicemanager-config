@@ -39,4 +39,4 @@ The FTF flag is stored in the h_itsm_requests table in the column h_firsttimefix
 |-|-|
 |NULL|If the request has not been assessed for FTF the value will be null|
 |1|The value will be set to 1 if the FTF has been achieved|
-|0|The vulue will be set to 0 if the FTF was not achieved|
+|0|The value will be set to 0 if the FTF was not achieved|
