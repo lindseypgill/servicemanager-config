@@ -20,7 +20,7 @@ The Shared Mailboxes can be configured to automatically move the email into a fo
 * The default setting for this is 'ON'. 
 * When this setting is set to 'OFF' the email will remain in its current folder and the archiveFolderName setting will be ignored.
 
-`servicemanager.eamil.archiveFolderName`
+`servicemanager.email.archiveFolderName`
 * The default folder name for this is 'Deleted Items'. 
 * This setting applies to all Shared Mailboxes that Service Manager Users have access to.
 
