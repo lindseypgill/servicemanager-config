@@ -34,8 +34,8 @@ The Assignment form provides options for assigning the request to a team and an 
 #### Options
 * **Owner is manadatory**<br>When set to Yes the owner or analyst field becomes mandatory and must be selected to continue 
 
-### Asset Details
-The Asset Details form allows an analyst or customer to associate assets to a request. By default, all assets that are associated to the customer are shown however it is also possible to associate assts which are shared with the customer, or perform general searches on assets that reside at the customer site, or more widely in the system. It's possible to associate multiple assets to each request.
+### Assets
+The Asset form allows an analyst or customer to associate assets to a request. By default, all assets that are associated to the customer are shown however it is also possible to associate assts which are shared with the customer, or perform general searches on assets that reside at the customer site, or more widely in the system. It's possible to associate multiple assets to each request.
 
 * View Asserts owned and user directly by a customer
 * View Assets shared with a customer (directly or via their membership to groups or organizations the asset has been shared with)
@@ -64,6 +64,10 @@ The Asset Details form allows an analyst or customer to associate assets to a re
 :::note
 The "Select Asset ..." parameters only affect tabs that search for assets. The Customer's Assets and Shared Assets tabs will show all Assets that are Owned By or Shared With the Customer respectively.
 :::
+
+## Categories
+The Category form will display the request category profile structure to the user.  The category used will be based on the category root specified on the request type configuration on the Service details form.  When a category is selected, the [description of the category](/esp-config/data/profiles#editor) will be displayed to the user.
+
 
 ## Change Type
 The 'Change Type' form allows an analyst to select the type of change request that will be raised. This form is usually only seen on the new Change capture flow:
@@ -154,7 +158,7 @@ Options
 Limit Portal Search to Name
 If set to No the post code and site ID are included in the search. If set to Yes then only the name of the site name is searched on.
 Info Message
-Add a longer descriptive message explaining to the user how to use the form
+Add a longer descriptive explaining to the user how to use the form
 Hide Customer's Site
 Select Yes to always have this tab hidden
 Hide Company Sites
