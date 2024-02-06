@@ -1,7 +1,7 @@
 ---
 layout: article-toc
 ---
-# Assessments
+# Questionnaires
 Assessments are a collection of questions that can be created and presented in the assessment tab of a request. Rather than having someone assume or apply their perception of the level, the questions can present criteria to make that decision.
 
 ## How To Access

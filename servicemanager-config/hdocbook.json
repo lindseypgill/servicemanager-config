@@ -4,7 +4,7 @@
   "description": "Guidance around configuring and administering the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-config.git",
   "productFamily": "com.hornbill.servicemanager",
-  "version": "0.0.33",
+  "version": "0.0.34",
   "audience": [
     "public"
   ],
@@ -223,7 +223,7 @@
                 "link": "servicemanager-config/administration/assessment-levels"
               },
               {
-                "text": "Assessments",
+                "text": "Questionnaires",
                 "link": "servicemanager-config/administration/assessment-questionnaires",
                 "draft": false
               }
