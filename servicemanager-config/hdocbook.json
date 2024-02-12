@@ -4,7 +4,7 @@
   "description": "Guidance around configuring and administering the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-config.git",
   "productFamily": "com.hornbill.servicemanager",
-  "version": "0.0.34",
+  "version": "0.0.35",
   "audience": [
     "public"
   ],
@@ -60,6 +60,16 @@
               {
                 "text": "Using Intelligent Capture",
                 "link": "servicemanager-config/customize/service-manager-capture",
+                "draft": false
+              },
+              {
+                "text": "Intelligent Capture Designer",
+                "link": "servicemanager-config/customize/intelligent-capture-designer",
+                "draft": false
+              },
+              {
+                "text": "Customized Forms",
+                "link": "servicemanager-config/customize/customized-forms",
                 "draft": false
               },
               {
