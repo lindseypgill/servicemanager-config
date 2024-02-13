@@ -13,6 +13,8 @@ The way the data is stored in the table h_itsm_questions does not offer us much 
 ## Configuring a Custom Field for Mapping
 When creating a custom question on a customized form, each question requires a Field ID and it is here that the mapping can be performed. When defining the Field ID, if you use any of the following values, the answer to this question will be mapped to the database column you have specified.
 
+![Custom Form Field Settings](_books/servicemanager-config/customize/images/custom-form-field-settings.png
+)
 
 Field mapping takes place when a supported database column name is specified as the field ID of a custom field.
 ### Which Database Columns Support Field Mapping?
@@ -42,6 +44,8 @@ To map a custom form answer to one of the supported database columns, the form f
 | **h_proposed_start_time** | DATETIME/a single date-time stamp | The Proposed Start date/time of the a Change or Release Request - (YYYY-MM-dd HH:mm:ss). These columns should ONLY be used in conjunction with a date-time picker  |
 | **h_proposed_end_time** | DATETIME/a single date-time stamp | The Proposed End date / time of the a Change or Release Request - (YYYY-MM-dd HH:mm:ss). These columns should ONLY be used in conjunction with a date-time picker  |
 | **h_workaround** | Text/Unlimited* | The Workaround for a Problem or Known Error record |
+| **h_change_type** | VarChar/128 Characters | A [simple list (changeRequestType)](/servicemanager-config/setup/service-manager-simple-lists) is used to select the change type when manually selecting the type.  Values used when mapping should match those in the simple list |
+| **h_release_type** | VarChar/128 Characters | A [simple list (releaseRequestType)](/servicemanager-config/setup/service-manager-simple-lists) is used to select the release type when manually selecting the type.  Values used when mapping should match those in the simple list |
 
 unlimited* - TEXT fields have a maximum capacity of 65000 characters.
 
