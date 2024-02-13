@@ -4,7 +4,7 @@
   "description": "Guidance around configuring and administering the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-config.git",
   "productFamily": "com.hornbill.servicemanager",
-  "version": "0.0.35",
+  "version": "0.0.36",
   "audience": [
     "public"
   ],
@@ -68,13 +68,18 @@
                 "draft": false
               },
               {
+                "text": "Service Manager Forms",
+                "link": "servicemanager-config/customize/service-manager-capture-forms",
+                "draft": false
+              },
+              {
                 "text": "Customized Forms",
                 "link": "servicemanager-config/customize/customized-forms",
                 "draft": false
               },
               {
-                "text": "Service Manager Forms",
-                "link": "servicemanager-config/customize/service-manager-capture-forms",
+                "text": "Mapping Fields from Customized Forms",
+                "link": "servicemanager-config/customize/mapping-fields-from-customized-forms",
                 "draft": false
               }
             ]
