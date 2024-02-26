@@ -2,18 +2,19 @@
 layout: article-toc
 ---
 # Using Intelligent Capture
-Intelligent Capture allows you to configure how and what information is collected or captured when a request is being manually raised. The captured information can help with the fulfillment of the request. 
+Intelligent Capture allows you to configure how and what information is collected or captured when a request is being manually raised. This may consist of a single question or a collection of questions that are presented to a user. The captured information can help with the fulfillment of the request.  
 
+![Capture Question](_books/servicemanager-config/customize/images/portal-custom-capture-question.png)
 ## Topics Covered
-* Default Intelligent Capture Scripts
-* Advanced settings
+* Where Intelligent Capture scripts are used.
+* Advanced settings.
 
 ## Before You Begin
-* Become familiar with the Intelligent Capture designer
+* Become familiar with the [Intelligent Capture designer](/servicemanager-config/customize/intelligent-capture-designer)
 * Know how to search for settings in [Configuration](/esp-config/getting-started/using-configuration)
 
 ## Raising a Request
-Intelligent Capture scripts are initiated from the different locations where a new request can be raised. 
+Intelligent Capture scripts are initiated from the different locations where a new request can be raised. This might be a support person raising a new request from their request list or a customer raising a request on a self service portal.
 
 ### Request List
 The Raise New option located at the top right of the Request List is split into two functional areas.
@@ -39,11 +40,11 @@ The setting *app.itsm.progressiveCapture.newReqeustFromEmail* setting allow the 
 ## Default Settings
 Service Manager settings are available to configure the default Intelligent Captures that are used when raising requests.
 
-* **app.itsm.progressiveCapture.newRequest**<br>The named Intelligent Capture on this setting will be used when the Raise New option is used or when an email is used to raise a new request
-* **app.itsm.progressiveCapture.newIncident**<br>The named Intelligent Capture on this setting will be used when raising an Incident
-* **app.itsm.progressiveCapture.newServiceRequest**<br>The named Intelligent Capture on this setting will be used
-* **app.itsm.progressiveCapture.newProblem**<br>Default when raising problems
-* **app.itsm.progressiveCapture.newKnownError**<br>Default when raising Known Errors
+* **app.itsm.progressiveCapture.newRequest**<br>The named Intelligent Capture on this setting will be used when the `Raise New` option is used.
+* **app.itsm.progressiveCapture.newIncident**<br>The named Intelligent Capture on this setting will be used when raising an incident.
+* **app.itsm.progressiveCapture.newServiceRequest**<br>The named Intelligent Capture on this setting will be used.
+* **app.itsm.progressiveCapture.newProblem**<br>Default when raising problems.
+* **app.itsm.progressiveCapture.newKnownError**<br>Default when raising known errors.
 * **app.itsm.progressiveCapture.newChange**<br>Default when raising a change
 * **app.itsm.progressiveCapture.newRelease**<br>Default when raising a release
-* **app.itsm.progressiveCapture.newRequestFromEmail**<br>The name of the Intelligent Capture script to use when raising a request from the Raise New Request plug-in located within the email view. The default used when this is not set is the New Request Intelligent Capture.
+* **app.itsm.progressiveCapture.newRequestFromEmail**<br>The name of the Intelligent Capture script to use when raising a request from the `Raise New Request` plug-in located within the email view. The default used when this is not set is the New Request Intelligent Capture.
