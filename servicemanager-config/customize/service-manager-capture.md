@@ -36,7 +36,7 @@ The `Raise New` button can also be configured to only show one of the above opti
 ### Email
 From the Email View, a new request can be manually raised from an email. Clicking on `Raise Request` from the `More` options button will by default initiate the Intelligent Capture specified in the *app.itsm.progressiveCapture.newRequest* setting. This is the same capture used by the `Raise New` button on the request list.
 
-![Raise Request](_books/servicemanager-config/customize/images/raise-request-from-email.png/)
+![Raise Request](_books/servicemanager-config/customize/images/raise-request-from-email.png)
 :::tip
 If an alternative capture script is required when raising requests from an email, the setting *app.itsm.progressiveCapture.newReqeustFromEmail* can be used to specify the capture script to use.
 :::
@@ -44,7 +44,7 @@ If an alternative capture script is required when raising requests from an email
 ### Request Catalog
 Each service has a reqeust catalog that can include a number of request models.  Each request model can have an associated Intelligent Capture that is used to collect information specific to that request.
 
-![Request Model](_books/servicemanager-config/customize/images/request-model-capture.png/)
+![Request Model](_books/servicemanager-config/customize/images/request-model-capture.png)
 
 * **Employee and Customer Portals**<br>When a request in the request catalog is used from either the Employee or Customer portal, only this capture script will be used to capture information.
 
