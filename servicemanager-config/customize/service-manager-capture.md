@@ -49,39 +49,3 @@ Each service has a reqeust catalog that can include a number of request models. 
 * **Employee and Customer Portals**<br>When a request in the request catalog is used from either the Employee or Customer portal, only this capture script will be used to capture information.
 
 * **Request List or EMail**<br>When a request is raised by someone on the service desk using the `Raise New` option on either the request list or from an email,  the capture script on a request model will only be used after selecting that request on the [Services Form](/servicemanager-config/customize/service-manager-capture-forms#services).
-
-<!--
-## Application Settings
-
-app.itsm.progressiveCapture.customerDetails.showOnlySupportedRequests
-This setting determines whether an agent is granted visibility to unsupported customer Requests in the 'Customer Search', 'Contact Search' or 'Co-worker Search' forms in Progressive Capture. When disabled, an agent will have visibility to unsupported customer Requests, this must be avoided for customers with multiple service desks (e.g. IT and HR).
-
-app.itsm.progressiveCapture.customerSearch.allowAddContact
-Setting for allowing addition of new contacts from within customer search form
-
-app.itsm.progressiveCapture.customerSearch.requestsPin
-Setting for visible/hidden last customer requests
-
-app.itsm.progressiveCapture.newSelfService
-name of progressive capture flow for new self service
-new selfservice
-
-app.itsm.progressiveCapture.organisationRequests.requestsPin
-Setting for visible/hidden last organization requests
-
-app.itsm.progressiveCapture.organizationDetails.allowOrgRequestsList
-Setting for visible/hidden for organization requests
-
-guest.app.itsm.progressiveCapture.newSelfService
-Progressive Capture Pick List
-1
-
-guest.itsm.progressiveCapture.overwriteCustomFieldValue
-A Custom Field (e.g. h_custom_a) could be mapped to a Field in more than one Customized Form. When disabled, overwritten values will not be considered and hence the 1st value is assigned to the Request's Custom Field.
-
-servicemanager.progressiveCapture.servicedetails.catalogRequired
-Setting for request catalog selection required for service details form in progressive capture
-
-servicemanager.progressiveCapture.servicedetails.enableSupportVisibility
-Filter Services in PC by teams that support the service as well the customer's service
--->
