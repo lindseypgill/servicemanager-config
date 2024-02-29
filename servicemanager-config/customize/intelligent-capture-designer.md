@@ -2,8 +2,8 @@
 Intelligent Capture is a graphical workflow tool that provides a simple way to define the capturing of information. Intelligent Capture include several types of forms for collecting information. These forms can be added, ordered, and branched depending on the information being captured.
 
 ## Before You Begin
-* Be familar with using [Configuration](/esp-config/getting-started/using-configuration/)
-* Understand how [Intelligent Capture is used](/servicemanager-config/customize/service-manager-capture/)
+* Be familar with using [Configuration](/esp-config/getting-started/using-configuration)
+* Understand how [Intelligent Capture is used](/servicemanager-config/customize/service-manager-capture)
 * Requires either the Admin Role or Progressive Capture Role to access the designer in Configuration
 
 ## Nodes
