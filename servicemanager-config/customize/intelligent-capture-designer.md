@@ -4,7 +4,7 @@ Intelligent Capture is a graphical workflow tool that provides a simple way to d
 ## Before You Begin
 * Be familar with using [Configuration](/esp-config/getting-started/using-configuration)
 * Understand how [Intelligent Capture is used](/servicemanager-config/customize/service-manager-capture)
-* Requires either the Admin Role or Progressive Capture Role to access the designer in Configuration
+* Users require either the Admin Role or Progressive Capture Manager role to access the designer in Configuration
 
 ## Nodes
 When building a capture workflow there are a few different nodes that are available to use when considering your design.
@@ -20,23 +20,31 @@ When building a capture workflow there are a few different nodes that are availa
 * **Cancel**<br>The Cancel node allows the capture workflow to exit without any further processing. This behaves the same as if the user had selected the cancel button that is available when filling out a capture. The user will be returned to where the Intelligent Capture was initiated from.
 
 ### Branches
-The branch node allows the workflow designer to send the user down different paths to collect different information based on the choices that are made on the previous form or by using a global variable.
+The branch node allows the workflow designer to send the user down different paths to collect information based on the choices that are made on the previous forms or based on session and global variables.
 
-A branch node inherits the outcomes from its parent capture form. This means that if you place a branch node after the request details form, you can branch on information held in the Summary and Description fields.
+![Branch Form](_books//servicemanager-config/customize/images/branch-node.png)
 
+A branch node inherits the outcomes from all of the preceding forms. For example, if you place a branch node after the [Request Details form](/servicemanager-config/customize/service-manager-capture-forms#request-details), you can branch on information held in the Summary and Description fields.
+* Each branch connector includes a *Goto if* statement that determines if that branch that will be taken. 
+* To define the *Goto if* statement you must first connect the branch node to the next node in the workflow.
+* The first connector will automatically have the *Goto if* statement set to *No Match*.
+* Subsequent connectors will require a *Goto if* statement to be set up before the workflow can be validated.
+* Click on the connector's label to change the *Goto if* statement.
+* There must always be a valid *Goto if* statement for all possible outcomes otherwise the capture could potentially have nowhere to go and result in an error. It is recommended to always have a *Goto if* statement on one of the branches set to *No Match*.
+
+:::tip
+There is a maximum of three branches on a branch node.  Additional branching can be achieved by daisy-chaining more than one branch node.
+:::
 <!--
 :::tip
 When branching to a new capture it is important to ensure that all Custom Forms have unique names to prevent mapped fields from being overwritten.
 :::
 -->
 #### Custom Expressions
-To add a custom expression to a branch node you must first connect the decision node to the next node in the flow.
-* You can then click the linking line and define your custom expression.
-* You can define multiple outcomes from a branch node, however, you must always have at least one valid outcome, otherwise, the capture workflow could potentially have nowhere to go which will result in an error.
-A branch node can have a maximum of three outcomes. If you require more than three outcomes you can link one branch node to another branch node using a No Match link and you can then add an outcome option to the second or subsequent branch node.
-* You can use variable values from any form that has been used in the capture workflow before the branch question for example from the Customer Search form you may use the Customer Type variable to branch on
+Custom Expressions allow you to define a *Go if* statement based on the preceding nodes' outcomes, global variables, or session variables.
+* You can use variable values from any form that has been used in the capture workflow before the branch form. 
 * You can branch on a global variable such as where the capture is being used. For example, if it is being used by an analyst in the user app you may want to branch to different forms compared to if the same capture was being used by a customer on either the customer or service portals.
-
+* You can use session variables that take into consideration information about the user who is using the capture.
 
 ### Switch Capture
 The Switch Capture node provides the ability to seamlessly move to or link capture workflows together. One example of where this may be useful is in Service Manager when choosing a Request Catalog item from the Services capture form, the switch process can be used to switch to the capture flow which is assigned to the chosen request catalog item.
