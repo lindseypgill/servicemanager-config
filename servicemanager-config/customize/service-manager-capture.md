@@ -46,7 +46,7 @@ If an alternative capture script is required when raising requests from an email
 :::
 
 ## Employee and Customer Portals
-Each service that is available to a user or contact on the portals has a request catalog that can include serveral request models.  Each request model can have an associated Intelligent Capture that is used to collect information specific to that request.
+Each service that is available to a user or contact on the portals has a [request catalog](/servicemanager-user-guide/service-portfolio/request-catalog) that can include serveral request models.  Each request model can have an associated Intelligent Capture that is used to collect information specific to that request.
 
 ![Request Model](_books/servicemanager-config/customize/images/request-model-capture.png)
 
