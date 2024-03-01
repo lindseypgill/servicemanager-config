@@ -22,7 +22,7 @@ When building a capture workflow there are a few different nodes that are availa
 ### Branches
 The branch node allows the workflow designer to send the user down different paths to collect information based on the choices that are made on the previous forms or based on session and global variables.
 
-![Branch Form](_books//servicemanager-config/customize/images/branch-node.png)
+![Branch Form](_books/servicemanager-config/customize/images/branch-node.png)
 
 A branch node inherits the outcomes from all of the preceding forms. For example, if you place a branch node after the [Request Details form](/servicemanager-config/customize/service-manager-capture-forms#request-details), you can branch on information held in the Summary and Description fields.
 * Each branch connector includes a *Goto if* statement that determines if that branch that will be taken. 
@@ -42,8 +42,11 @@ When branching to a new capture it is important to ensure that all Custom Forms 
 -->
 #### Custom Expressions
 Custom Expressions allow you to define a *Go if* statement based on the preceding nodes' outcomes, global variables, or session variables.
-* You can use variable values from any form that has been used in the capture workflow before the branch form. 
-* You can branch on a global variable such as where the capture is being used. For example, if it is being used by an analyst in the user app you may want to branch to different forms compared to if the same capture was being used by a customer on either the customer or service portals.
+
+![Custom Expression](_books/servicemanager-config/customize/images/custom-expression.png)
+
+* You can use outcome values from any form that has been used in the capture workflow before the branch form. 
+* You can branch on a global variable such as where the capture is being used. For example, if it is being used by a support user in the user app you may want to branch to different forms compared to if the same capture was being used by a user or contact on either the employee or customer portals.
 * You can use session variables that take into consideration information about the user who is using the capture.
 
 ### Switch Capture
