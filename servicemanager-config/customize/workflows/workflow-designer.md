@@ -4,6 +4,22 @@ layout: article-toc
 # Workflow Designer
 The Workflow Designer lets you define and build workflows that can then be used to standardize and automate your processes. You can define a logical sequence of activities and automated tasks in a workflow that can then be repeated reliably.
 
+## Tool Bar
+* **Filter**<br>Filter the list of workflows by typing text that will match against the following fields: Workflow name, Category, Created By, and Updated By.
+* **Status Filter**<br>Filter the list of workflows by status using the options `Show All Workflows`, `Show Active Workflows`, and `Show De-Activated Workflows`.
+* **Search workflows for a set value**<br>This option will search all of your existing workflows for a string of text. For example, you can search on a User ID to locate all the workflows where that User ID has been set within the workflow options.
+* **Create New**<br>Select this option to create a new workflow.
+* **Delete**<br>Delete one or more workflows that have been selected in the list of workflows. This option will only be available once a workflow has been selected.
+
+## List
+* **Column Headings**<br>Each heading can be clicked on to change the order in which the workflows are displayed.
+* **Workflow**<br>Column that displays the name of each individual workflow. This can be clicked on to view and edit the selected workflow within the Business Process Designer.
+* **Actions**<br>Some quick access options are available in the last column for each workflow.
+* **Process Publishing & Activation**<br>Ppandabutton.pngClicking this option will allow you to publish the workflow, using the latest draft version. You are also able to activate one of the previous 10 versions of the workflow or copy them back to the draft version.
+* **Copy process**<br>Create an identical copy of this workflow.
+* **Rename process**<br>Rename this workflow. This can only be done when the workflow has no executed processes with a status of active or suspended. Use the Manage Executed Processes option to identify and manage these executed processes.
+* **Delete process**<br>Delete this workflow. This can only be done when the workflow as no executed processes with a status of active or suspended. Use the Manage Executed Processes option to identify and manage these executed processes.
+
 ## Stages
 A stage is a container for a set of actions or tasks that fulfill a particular aspect of a workflow.  
 * Each workflow can have one or more stages.
