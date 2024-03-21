@@ -12,11 +12,11 @@ The HAi Dashboard is available to any user associated with one of the following 
 Additionally, any user with the application right **rightA.administerServiceDesk** can enable HAi features.
 
 ## Overview
-The HAi Value Dashboard is designed to show you your organisations usage of HAi and estimate hours saved through generative AI for both summarising as generating text output, these calaculations are an esitmate and configurable, the top line widgets show usage and savings for the last 30 days 'rolling'. 
+The HAi Value Dashboard is designed to show you your organisation's usage of HAi and estimate hours saved through generative AI (summarising as generating text output). These calaculations are an estimate and are configurable. The top line widgets show rolling 30-day usage and savings.
 
-The first two line charts show the savings per month over the last 12 months, this will take a few weeks of usage before the output is usable.
+The first two line charts show the savings per month over the last 12 months. This will take a few weeks of usage before output is properly populated.
 
-The second two charts show usage per day for the last 30 days by product area and then the top 4 most active users based on prompt usage over the last 30 days. 
+The second two charts show (1) Usage per day for the last 30 days by product area and (2) The top 4 most active users based on prompt usage over the last 30 days.
 
 Currently no additional filters can be applied to the dashboard. 
 <img src="/_books/servicemanager-config/administration/images/hai_dashboard.png" alt="Hornbill Ai Dashboard" ></img>

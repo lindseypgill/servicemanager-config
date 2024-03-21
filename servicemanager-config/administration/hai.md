@@ -27,7 +27,7 @@ By enabling any of these optional HAi features, you are agreeing to allow a thir
 
 The following areas of functionality send request data during each invocation and are document as follows:
 ### Request Summariser 
-When sumarising a request the following data from the request you are in is processed:
+When summarising a request the following data from the request you are in is processed:
 ```
 
     h_itsm_requests.h_description
@@ -35,7 +35,7 @@ When sumarising a request the following data from the request you are in is proc
     h_itsm_requests.h_fk_user_name
 
 ```
-The timeline of the request is filtered down with the following filters '["Update","Email",'Customer']' 
+The timeline of the request is filtered down with the following filters '["Update","Email",'Customer']'
 
 Each post in the timelines sends the followng
 ```
@@ -92,7 +92,7 @@ When generating a knowedge draft from a resolved or closed request the following
 
 
 ### Text Assist
-Text assist combined with snippets or used withing a workflow and passing in variables can pass any data a user has selected to pass to OpenAI, nothing is sent automatically and in the case of snippets when the snipped is selected the analayst will see the data before the text is passed as part of the prompt when using text assist after a snippet. 
+Text assist combined with snippets or used withing a workflow and passing in variables can pass any data a user has selected to pass to OpenAI, nothing is sent automatically. In the case of snippets, when the snippet is selected the analayst will see the data before the text is passed as part of the prompt when using Text Assist after a snippet. 
 
 
 
