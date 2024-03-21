@@ -12,7 +12,7 @@ The HAi Dashboard is available to any user associated with one of the following 
 Additionally, any user with the application right **rightA.administerServiceDesk** can enable HAi features.
 
 ## Overview
-The HAi Value Dashboard is designed to show you your organisation's usage of HAi and estimate hours saved through generative AI (summarising as generating text output). These calaculations are an estimate and are configurable. The top line widgets show rolling 30-day usage and savings.
+The HAi Value Dashboard is designed to show you your organization's usage of HAi and estimate hours saved through generative AI (summarizing as generating text output). These calaculations are an estimate and are configurable. The top line widgets show rolling 30-day usage and savings.
 
 The first two line charts show the savings per month over the last 12 months. This will take a few weeks of usage before output is properly populated.
 

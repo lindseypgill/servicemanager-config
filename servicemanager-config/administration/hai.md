@@ -27,7 +27,7 @@ By enabling any of these optional HAi features, you are agreeing to allow a thir
 
 The following areas of functionality send request data during each invocation and are document as follows:
 ### Request Summariser 
-When summarising a request the following data from the request you are in is processed:
+When summarizing a request the following data from the request you are in is processed:
 ```
 
     h_itsm_requests.h_description
@@ -97,6 +97,6 @@ Text assist combined with snippets or used withing a workflow and passing in var
 
 
 ## OpenAI Usage
-Usage of the OpenAI API's goes through an API Key provided by hornbill. Currently there are no usage limits outside the limits provided by OpenAI. It is possible to override the API to use an API Key of your organisation's choice by overriding the system setting **integration.openai.apiKey**.
+Usage of the OpenAI API's goes through an API Key provided by hornbill. Currently there are no usage limits outside the limits provided by OpenAI. It is possible to override the API to use an API Key of your organization's choice by overriding the system setting **integration.openai.apiKey**.
 
 Further details on this here: https://docs.hornbill.com/esp-fundamentals/productivity/ai-assist

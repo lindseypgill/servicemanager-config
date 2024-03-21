@@ -3,8 +3,8 @@ layout: article-toc
 ---
 # HAi Automations
 ## Summarize Request
-Using the Requests entity in Hornbill Automations and selecting the Type HAi you will find the Summarise Request task, like the UI for summarizing the request. The only difference here is it being triggered from a workflow. Optionally you can update the request timeline. The summary is also returned as a variable for use in the process later on.
-<img src="/_books/servicemanager-config/administration/images/hai_automation_summaize.png" alt="Hornbill Ai Summarise Request - Automation" ></img>
+Using the Requests entity in Hornbill Automations and selecting the Type HAi you will find the Summarize Request task, like the UI for summarizing the request. The only difference here is it being triggered from a workflow. Optionally you can update the request timeline. The summary is also returned as a variable for use in the process later on.
+<img src="/_books/servicemanager-config/administration/images/hai_automation_summaize.png" alt="Hornbill Ai Summarize Request - Automation" ></img>
 
 
 ## askHAi
