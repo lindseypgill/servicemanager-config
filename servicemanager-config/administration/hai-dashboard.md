@@ -1,0 +1,34 @@
+---
+layout: article-toc
+---
+# HAi Dashboard
+## Dashboard Access
+The HAi Dashboard is available to any user associated with one of the following roles: 
+
+|Role|Description|
+|-|-|
+|Service Desk Admin|This role is for a Service Desk Administrator. This includes, an elevated visibility to Requests and associated actions, the ability to configure Service Manager features via the Administration Tool and the option to restart a failed BPM within a Request.|
+
+Additionally, any user with the application right **rightA.administerServiceDesk** can enable HAi features.
+
+## Overview
+The HAi Value Dashboard is designed to show you your organisations usage of HAi and estimate hours saved through generative AI for both summarising as generating text output, these calaculations are an esitmate and configurable, the top line widgets show usage and savings for the last 30 days 'rolling'. 
+
+The first two line charts show the savings per month over the last 12 months, this will take a few weeks of usage before the output is usable.
+
+The second two charts show usage per day for the last 30 days by product area and then the top 4 most active users based on prompt usage over the last 30 days. 
+
+Currently no additional filters can be applied to the dashboard. 
+<img src="/_books/servicemanager-config/administration/images/hai_dashboard.png" alt="Hornbill Ai Dashboard" ></img>
+
+
+
+## Configuration
+The following application settings control the calculations on the value dashboard
+|Setting|Description|Default
+|-|-|-|
+|generativeAi.dashboard.currencySymbol|Currency to use when display value saved based on ratePerMinute.|£|
+|generativeAi.dashboard.ratePerMinute|Lowest FTE cost per minute based on currency from currencySymbol.|0.2|
+|generativeAi.dashboard.readingRate|Average words per minute reading a document.|200|
+|generativeAi.dashboard.typeingRate|Average words per minute when typing a document.|40|
+|generativeAi.dashboard.wordsPerToken|Estimate number of words per token to convert tokens from prompts to words.|1.3|

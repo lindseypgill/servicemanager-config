@@ -258,6 +258,29 @@
             "text": "Scheduled Requests",
             "link": "servicemanager-config/administration/scheduled-requests",
             "draft": false
+          },
+          {
+            "text": "HAi",
+            "link": "servicemanager-config/administration/hai",
+            "draft": false,
+            "items": [
+              {
+                "text": "Configuration",
+                "link": "servicemanager-config/administration/hai"
+              },
+              {
+                "text": "Dashboard",
+                "link": "servicemanager-config/administration/hai-dashboard"
+              },
+              {
+                "text": "Log",
+                "link": "servicemanager-config/administration/hai-logs"
+              },
+              {
+                "text": "Automations",
+                "link": "servicemanager-config/administration/hai-automations"
+              }
+            ]
           }
         ]
       }
