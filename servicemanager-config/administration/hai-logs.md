@@ -18,5 +18,3 @@ The HAi Usage Logs show the last 30 days usage with the latest first limited to 
 
 ## Monitoring of Logs
 Unlike AI-Assist which does not log its usage, HAi Usage is logged so customers can demonistrate the value being added to their buiness and debug and issues. Hornbill will from time to time use these logs for both usage monitoring as well as improving the quality of the prompts output and to improve the overall service. Customer data confidentialty is maintained. Details can be found in section 6 of the [Hornbill Subscription agreement](https://www.hornbill.com/subscription-agreements). 
-
-
