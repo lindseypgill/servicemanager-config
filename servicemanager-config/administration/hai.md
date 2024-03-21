@@ -2,6 +2,10 @@
 layout: article-toc
 ---
 # Configure HAi
+::: important 
+HAi is currently in a closed beta, speak to customer success should you want to take part.
+::: 
+
 ## Enabling HAi features
 All HAi features are *disabled* by default and must be individually enabled before they can be used by end users. To enable any of the HAi capabilities, your User Account must be associated with one of the following roles: 
 
