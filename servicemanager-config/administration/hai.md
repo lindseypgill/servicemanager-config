@@ -1,4 +1,7 @@
 ---
+title: Hornbill AI Configuration
+description: This guide covers the configuration and implementation of HAi (Hornbill Ai) features within your environment. The document outlines step-by-step instructions on enabling HAi capabilities for your user account, specifying the necessary roles, and accessing the necessary settings in Hornbill.
+coverImage: /_books/servicemanager-config/administration/images/hai_cover.jpg
 layout: article-toc
 ---
 # Configure HAi
