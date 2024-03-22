@@ -1,4 +1,7 @@
 ---
+title: Hornbill AI Dashboard
+description: Discover how to maximize the potential of the HAi Dashboard in your organization with roles tailored to your needs. Get insights on usage statistics, estimated hours saved through generative AI, and track your organization's performance over time. Learn about the key features and application settings that drive the value dashboard, providing valuable metrics for decision-making and efficiency improvements.
+coverImage: /_books/servicemanager-config/administration/images/hai_cover.jpg
 layout: article-toc
 ---
 # HAi Dashboard
