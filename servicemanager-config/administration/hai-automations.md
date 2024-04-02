@@ -11,7 +11,7 @@ Using the Requests entity in Hornbill Automations and selecting the Type HAi you
 
 
 ## askHAi
-Using the Requests entity in Hornbill Automations and selecting the Type HAi you will find the askHai task. This allows fairly open prompts to be used as part of a Hornbill Workflow. The following example uses the initial summary and description of a request and asks for some clarifying questions to be generated if possible. It's important to not directly send this straight to a user in the first instance and validate its output. As with other automations, the response is optionaly added to the timeline and is also returned as a variable for use in the process later on.
+Using the Requests entity in Hornbill Automations and selecting the Type HAi you will find the askHai task. This allows fairly open prompts to be used as part of a Hornbill Workflow. The following example uses the initial summary and description of a request and asks for some clarifying questions to be generated if possible. It's important to not directly send this straight to a user in the first instance and validate its output. As with other automations, the response is optionally added to the timeline and is also returned as a variable for use in the process later on.
 
 <img src="/_books/servicemanager-config/administration/images/hai_automation_ask.png" alt="Hornbill Ai askHai - Automation" ></img>
 <img src="/_books/servicemanager-config/administration/images/hai_automation_ask_2.png" alt="Hornbill Ai askHai - Automation" ></img>
