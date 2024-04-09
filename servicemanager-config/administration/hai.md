@@ -26,6 +26,13 @@ Additionally, any user with the application right **rightA.administerServiceDesk
 
 <img src="/_books/servicemanager-config/administration/images/hai_config.png" alt="Hornbill Ai Configuration" ></img>
 
+## Grant Users Access to HAi features
+To access the HAi capability of Hornbill Service Manager, your User Account must have one of the following roles associated.
+
+|Role|Description|
+|-|-|
+|HAi User|This role allows users to access HAi functionality inside of Service Manager|
+
 ## Data 
 ### OpenAI Processor
 By enabling any of these optional HAi features, you are agreeing to allow a third party to process your data (OpenAI), Data from prompts and underlying request data is passed to OpenAI under their [business terms](https://openai.com/policies/business-terms) of use and their [enterprise privacy policy](https://openai.com/enterprise-privacy). This prevents usage data from being used for training new models, the input and output of prompts is currently stored by OpenAI as outlined in their [Documentation](https://platform.openai.com/docs/models/how-we-use-your-data), all data is sent using encrypted connection.
