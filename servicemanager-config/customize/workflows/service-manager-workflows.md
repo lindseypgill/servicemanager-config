@@ -152,6 +152,8 @@ Use the Suspend nodes if you wish to suspend the progress of the workflow until 
 * Wait for Attachment
 * Wait for Request Closure
 * Wait for Request Closure Category
+* Wait for Request Connection
+* Wait for Custom Field
 * Wait for Customer
 * Wait for Feedback
 * Wait for Request Description
@@ -175,6 +177,7 @@ Use the Suspend nodes if you wish to suspend the progress of the workflow until 
 * Wait for Request Summary
 * Wait for Request Team
 * Wait for Request Update
+* Wait for Urgency Assessment
 
 ### Update Request
 Use the Update Request node to automatically update the values of specific Request attributes at any stage in the workflow. Examples being updating the Logging or Closing Categories of a Request.
