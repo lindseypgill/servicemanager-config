@@ -50,7 +50,7 @@ When summarizing a request the following data from the request you are in is pro
 ```
 The timeline of the request is filtered down with the following filters '["Update","Email",'Customer']'
 
-Each post in the timelines sends the followng
+Each post in the timelines sends the follownig
 ```
 
     actorInfo.name
@@ -58,11 +58,19 @@ Each post in the timelines sends the followng
 
 ```
 
-Each comment associated to any filtered posts in the timelines sends the followng
+Each comment associated to any filtered posts in the timelines sends the follownig
 ```
 
     actorInfo.name
     comment
+
+```
+
+Custom Questions (first 100) are passed, excluding the type `file-upload` and `label` and are paired with the question text as follows:
+```
+
+    h_question
+    h_answer_value
 
 ```
 
