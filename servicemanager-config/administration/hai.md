@@ -15,10 +15,8 @@ All HAi features are *disabled* by default and must be individually enabled befo
 |-|-|
 |Service Desk Admin|This role is for a Service Desk Administrator. This includes, an elevated visibility to Requests and associated actions, the ability to configure Service Manager features via the Administration Tool and the option to restart a failed BPM within a Request.|
 
-### Additional Rights
-To access generating a knowledge draft from a request the analysts will need the following app right `servicemanager:rightH.canCreateKnowledgeBaseArticles`
-
 Additionally, any user with the application right **rightA.administerServiceDesk** can enable HAi features.
+
 
 ## How to enable HAi features
 * Log into Hornbill with the relevant access role.
