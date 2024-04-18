@@ -8,12 +8,24 @@ Email templates can be used to pre-populate emails with information to create a 
 The list of templates is controlled by the selection of the application that will be using the template along with the entity or business object within that application for which the template will use fields to include information from the entity when an email is sent using that template.
 
 ### Grouping
-Email templates can be assigned a group using up to 3 levels. The Grouping option allows you to filter the list by these groups. When selecting a group, the list will display all templates for that group and any sub-group. The group names and assignments are all mananged within the Template Editor.
+Email template groups can make it easier to filter through the list of templates. These groups can also be utilized to filter the available email templates for analysts when sending emails directly from a request. 
+
+The Group selector at the top of the email template list allows the user to filter the list by the selected group.
+
+![Email Template Groups](_books/servicemanager-config/customize/images/email-template-groups.png)
+
+Next to the Group selector is an option that is enabled when one or more email templates are selected in the list. From here the selected email templates can be set to a group.  If the group does not exist, the toggle next to each Group Level can be used to add a new group.
+
+![Email Templelate Group Selector](_books/servicemanager-config/customize/images/email-template-group-selector.png)
+
+Groups can also be selected and created from within the Template Editor when creating or editing an individual email template.
 
 ## Template Editor
 The Template Editor is used to construct your email templates. Within the Editor you provide the following areas.
 
 * **Group**<br>The Group option provides a way of organizing email templates using up to 3 levels. You can either add the template to an existing group or you can create a new group name. Groups can be used to filter the Email Template list and can help with template selection when using certain application features.
+
+    ![Email Template Editor Groups](_books/servicemanager-config/customize/images/email-template-editor-groups.png)
 
 * **Name**<br>The Name provides a reference within the list of Templates. The BPM Editor and the different Apps that use email templates will also use this name to display where email template selection is available.
 * **Subject**<br>Contents of the Subject of the email. Both text and fields can be used within this section.
