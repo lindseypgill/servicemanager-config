@@ -21,7 +21,7 @@ Next to the Group selector is an option that is enabled when one or more email t
 Groups can also be selected and created from within the Template Editor when creating or editing an individual email template.
 
 ## Template Editor
-The Template Editor is used to construct your email templates. Within the Editor you provide the following areas.
+The Template Editor is used to construct your email templates. Within the editor, you provide the following information.
 
 * **Group**<br>The Group option provides a way of organizing email templates using up to 3 levels. You can either add the template to an existing group or you can create a new group name. Groups can be used to filter the Email Template list and can help with template selection when using certain application features.
 
@@ -33,10 +33,10 @@ The Template Editor is used to construct your email templates. Within the Editor
 
 
 ## Fields
-Each application, through the use of entity definitions defines the specific fields that are available for any given template.  Field names are generally descriptive and self-evident, and often include a short description of their purpose which you can see at the point of choosing the field(s). However, if you do need more detailed information, you should see the documentation for the specific application, as each application's entities and published email template fields are different. 
+Each application, through the use of entity definitions, defines the specific fields that are available for any given template.  Field names are generally descriptive and self-evident, and often include a short description of their purpose which you can see at the point of choosing the field(s). However, if you do need more detailed information, you should see the documentation for the specific application, as each application's entities and published email template fields are different. 
 
 ### Global Fields
-As well as the application-specific fields, there are a number of general purpose fields that are always available regardless of the application or entity context, these fields are general purpose fields relating to the session of the user making use of the template.
+As well as the application-specific fields, there are several general-purpose fields that are always available regardless of the application or entity context, these fields are general-purpose fields relating to the session of the user making use of the template.
 
 |Field ID|Field Name|Field Group|Description|
 |:--|:--|:--|:--|
@@ -54,7 +54,7 @@ As well as the application-specific fields, there are a number of general purpos
    
 
 ### Field Formats & Modifiers
-Template Fields can be used within the Subject or Message of a template in order to have information that is stored within the related entity and be injected into the email being created from the template, as well as a number Fields related to the user making use of the template when sending a message.
+Template Fields can be used within the Subject or Message of a template to have information that is stored within the related entity and be injected into the email being created from the template, as well as a number of fields related to the user making use of the template when sending a message.
 
 * **Format**<br>Each field starts with a double opening curly brace ( {{ ) and finishes with a double closing curly brace ( }} ). Within the curly braces, the contents can be either just a data field specified by a dot (.) followed by the field name (.H_Firstname) or the data field can be preceded by an available related entity (Contact.H_firstname). The complete field will have the format {{.H_firstname}}
 * **Letter Case**<br>The letter case of the fields will determine the letter case that is used in the email. For example
@@ -87,14 +87,14 @@ Ultimately, the visibility of the field or text is dependent purely on the condi
 * **What Operators can I use in my ESP Conditions?**<br>The operators "=" (equal to) and "!=" (not equal to) are supported.
 * **The Co-Worker Vs Contact ESP Condition Example**<br>One common situation where the ESP expression is essential is when you want to begin your emails with “Dear [Customer]”.
 
-As you will know by now, the customer set against a request could either be a “Co-Worker” (someone internal to your Organization) or a “Contact” (an individual external to your organization) and each of these types of user have a range of associated fields.
+As you will know by now, the customer set against a request could either be a “Co-Worker” (someone internal to your Organization) or a “Contact” (an individual external to your organization) and each of these types of users have a range of associated fields.
 
-To configure an email template to cater for the possibility of the customer being a Co-worker or a Contact it should be set up as follows:
+To configure an email template to cater to the possibility of the customer being a Co-worker or a Contact it should be set up as follows:
 
 1. Select the desired Co-worker and Contact name fields. In this example we will be addressing the customer by first name only so we will select `{{Customer Coworker.H_first_name}}` and `{{Customer Contact.H_firstname}}`
 1. Highlight the Co-Worker field and click the ESP Expression button
 You will see that the “Value” field is automatically populated with the highlighted field.
-1. In the “Expression” field, define the condition that you wish to control the visibility of this field. Remember, the field will only be displayed if your expression is found to be true. For the Co-worker field, we only want this to display if the customer against the request is in fact a Co-worker. This information is stored in the main request table and can be obtained using the field `{{.h_customer_type}}`. The value will be zero for a Co-worker, and one for a contact, hence the expression controlling a Co-worker field should be: `{{.h_customer_type}}` = 0
+1. In the “Expression” field, define the condition that you wish to control the visibility of this field. Remember, the field will only be displayed if your expression is found to be true. For the Co-worker field, we only want this to display if the customer against the request is a Co-worker. This information is stored in the main request table and can be obtained using the field `{{.h_customer_type}}`. The value will be zero for a Co-worker, and one for a contact, hence the expression controlling a Co-worker field should be: `{{.h_customer_type}}` = 0
 1. Click OK
 1. Highlight the Contact field and click the ESP Expression button.
 1. The controlling expression defined here needs to ensure the Contact field only displays if the customer against a request is indeed a contact. So using the same field as before we can set the expression as `{{.h_customer_type}}` = 1
