@@ -64,4 +64,4 @@ After a scheduled request has been completed and there are no more recurrences t
 1. Click on the `Re-activate` button.
 
 ## Schedule Calendar
-A calendar view has been provided as a convieniant way to view all of the schedule requests.  The calendar can be accessed by clicking on the `Schedule Calendar` button.
+A calendar view has been provided as a convieniant way to view schedule requests. For each scheduled request, the initial logged request along with its next scheduled event will be displayed in the calendar. The calendar can be accessed by clicking on the `Schedule Calendar` button.
