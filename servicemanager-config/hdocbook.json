@@ -4,7 +4,7 @@
   "description": "Guidance around configuring and administering the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-config.git",
   "productFamily": "com.hornbill.servicemanager",
-  "version": "0.0.71",
+  "version": "0.0.72",
   "audience": [
     "public"
   ],
@@ -186,13 +186,13 @@
         ]
       },
       {
-        "text": "Reports",
+        "text": "Reporting",
         "expand": false,
-        "draft": true,
+        "draft": false,
         "items": [
           {
-            "text": "Reporting",
-            "link": "servicemanager-config/reports/reporting"
+            "text": "Reports",
+            "link": "servicemanager-config/reporting/reports"
           }
         ]
       },
