@@ -125,6 +125,25 @@ Request Settings
 - When the setting is off, conditional progressive capture questions which were not displayed in progressive capture flows will appear in the Questions section on the request forms
 - When the setting is on, conditional progressive capture questions which were not displayed in progressive capture flows will not appear in the Questions section on the request forms
 
+## Knowledge Center
+This feature allows agents and customers to be presented with relevant knowledge when using progressive capture in the user app and the customer and service portal (selectively)
+
+`guest.app.experimental.hornbillKnowledgeCentre`
+* Default is Off
+* If enabled you will also need to enable which interfaces will see the knowledge center in progressive capture, this is controlled by the following system settings:
+
+`guest.app.knowledge.customer`
+* Default is Off
+* If enabled, shows the relevant knowledge when a user log a new request in the Customer portal
+
+`guest.app.knowledge.service`
+* Default is Off
+* If enabled, shows the relevant knowledge when a user log a new request in the Service portal
+
+`guest.app.knowledge.user`
+* Default is Off
+* If enabled, shows the relevant knowledge when a user log a new request in the user app
+
 ## Timeline Settings
 `guest.servicemanager.request.timeline.showShortPostTitle`
 - When this setting is on, it will display the name of the user who posted on the timeline of the request, when viewing the timeline of the request in the Customer and Service Portals.
