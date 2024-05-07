@@ -200,3 +200,4 @@ app.cm.explorer.items.inPolicy
 "default" : true
 
 <!--https://wiki.hornbill.com/index.php?title=Service_Manager_Settings>
+<!-- https://wiki.hornbill.com/index.php?title=Service_Manager_Experimental_Features -->
