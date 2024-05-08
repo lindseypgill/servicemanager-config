@@ -13,12 +13,12 @@ Use the Access Control to lock or unlock the Details section or the Actions on a
 * Unlock Request Details
 
 ### Assessment
-Use the Assessment node to initiate an Impact Assessment on a request
+Use the Assessment node to initiate an Impact Assessment on a request.
 
-Impact Assessment
+This Hornbill Automation will present an Impact Assessment option on the Escalate Action of a request. When selected a user will be taken through a number of defined questions, and determined by their responses, an impact level will be automatically applied to the request.
+
 ### Assets
 Use these Hornbill Automations for managing assets that are associated to the request
-
 * Add All Owned by Customer
 * Add Generic Assets Owned by Customer
 * Add Computer System Assets Owned by Customer
@@ -221,3 +221,5 @@ If you are using this BPM node to control resolution timers the four settings ab
 * Stop Response Timer
 * Pause Resolution Timer
 * Resume Resolution Timer
+
+<!-- https://wiki.hornbill.com/index.php?title=Service_Manager_Business_Process_Workflow -->
