@@ -94,10 +94,10 @@ To configure an email template to cater to the possibility of the customer being
 1. Select the desired Co-worker and Contact name fields. In this example we will be addressing the customer by first name only so we will select `{{Customer Coworker.H_first_name}}` and `{{Customer Contact.H_firstname}}`
 1. Highlight the Co-Worker field and click the ESP Expression button
 You will see that the “Value” field is automatically populated with the highlighted field.
-1. In the “Expression” field, define the condition that you wish to control the visibility of this field. Remember, the field will only be displayed if your expression is found to be true. For the Co-worker field, we only want this to display if the customer against the request is a Co-worker. This information is stored in the main request table and can be obtained using the field `{{.h_customer_type}}`. The value will be zero for a Co-worker, and one for a contact, hence the expression controlling a Co-worker field should be: `{{.h_customer_type}}` = 0
+1. In the “Expression” field, define the condition that you wish to control the visibility of this field. Remember, the field will only be displayed if your expression is found to be true. For the Co-worker field, we only want this to display if the customer against the request is a Co-worker. This information is stored in the main request table and can be obtained using the field `{{.h_customer_type}}`. The value will be zero for a Co-worker, and one for a contact, hence the expression controlling a Co-worker field should be: `{{.h_customer_type}} = 0`
 1. Click OK
 1. Highlight the Contact field and click the ESP Expression button.
-1. The controlling expression defined here needs to ensure the Contact field only displays if the customer against a request is indeed a contact. So using the same field as before we can set the expression as `{{.h_customer_type}}` = 1
+1. The controlling expression defined here needs to ensure the Contact field only displays if the customer against a request is indeed a contact. So using the same field as before we can set the expression as `{{.h_customer_type}} = 1`
 1. Click OK
 
 :::tip
