@@ -6,7 +6,7 @@ layout: article-toc
 ---
 
 # Hornbill AI Usage Policy
-The usage of Hornbill AI is governeed by the Hornbill Artificial Intelligence Addendum however HAI is subject to additional terms based on which AI Providor is beign used, Azure AI Services or OpenAI.
+The usage of Hornbill AI is governeed by the Hornbill Artificial Intelligence Addendum however HAI is subject to additional terms based on which AI Providor is being used, Azure AI Services or OpenAI.
 
 ## Azure Open AI Services
 If you are configured to use Azure Open AI Services then you usage of HAI is subject to certain terms and conditions imposed by Microsoft relating to its provision of OpenAI product access and related products and functionality, including, without limitation, those set forth at
