@@ -4,7 +4,7 @@
   "description": "Guidance around configuring and administering the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-config.git",
   "productFamily": "com.hornbill.servicemanager",
-  "version": "0.0.78",
+  "version": "0.0.79",
   "audience": [
     "public"
   ],
@@ -288,6 +288,10 @@
               {
                 "text": "Automations",
                 "link": "servicemanager-config/administration/hai-automations"
+              },
+              {
+                "text": "Usage Policy",
+                "link": "servicemanager-config/administration/hai-usage-policy"
               }
             ]
           }
